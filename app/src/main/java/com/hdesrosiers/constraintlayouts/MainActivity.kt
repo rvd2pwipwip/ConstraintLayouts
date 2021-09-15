@@ -15,7 +15,6 @@ import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.*
 
 class MainActivity : ComponentActivity() {
-  @OptIn(ExperimentalComposeUiApi::class)
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContent {
